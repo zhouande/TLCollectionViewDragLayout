@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1319E7FC1B58DF0F00B81C7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E7FB1B58DF0F00B81C7D /* main.m */; };
 		1319E7FF1B58DF0F00B81C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E7FE1B58DF0F00B81C7D /* AppDelegate.m */; };
-		1319E8021B58DF0F00B81C7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E8011B58DF0F00B81C7D /* ViewController.m */; };
 		1319E8051B58DF0F00B81C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1319E8031B58DF0F00B81C7D /* Main.storyboard */; };
 		1319E8071B58DF0F00B81C7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1319E8061B58DF0F00B81C7D /* Images.xcassets */; };
 		1319E80A1B58DF0F00B81C7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1319E8081B58DF0F00B81C7D /* LaunchScreen.xib */; };
 		1319E8161B58DF0F00B81C7D /* TLCollectionViewDragLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E8151B58DF0F00B81C7D /* TLCollectionViewDragLayoutTests.m */; };
+		1319E8251B58DF1800B81C7D /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E8201B58DF1800B81C7D /* TLCollectionViewController.m */; };
+		1319E8261B58DF1800B81C7D /* TLCollectionViewDragLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E8221B58DF1800B81C7D /* TLCollectionViewDragLayout.m */; };
+		1319E8271B58DF1800B81C7D /* TLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1319E8241B58DF1800B81C7D /* TLCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		1319E7FB1B58DF0F00B81C7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1319E7FD1B58DF0F00B81C7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1319E7FE1B58DF0F00B81C7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1319E8001B58DF0F00B81C7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1319E8011B58DF0F00B81C7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1319E8041B58DF0F00B81C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1319E8061B58DF0F00B81C7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1319E8091B58DF0F00B81C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1319E80F1B58DF0F00B81C7D /* TLCollectionViewDragLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLCollectionViewDragLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1319E8141B58DF0F00B81C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1319E8151B58DF0F00B81C7D /* TLCollectionViewDragLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewDragLayoutTests.m; sourceTree = "<group>"; };
+		1319E81F1B58DF1800B81C7D /* TLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewController.h; sourceTree = "<group>"; };
+		1319E8201B58DF1800B81C7D /* TLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewController.m; sourceTree = "<group>"; };
+		1319E8211B58DF1800B81C7D /* TLCollectionViewDragLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewDragLayout.h; sourceTree = "<group>"; };
+		1319E8221B58DF1800B81C7D /* TLCollectionViewDragLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewDragLayout.m; sourceTree = "<group>"; };
+		1319E8231B58DF1800B81C7D /* TLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewCell.h; sourceTree = "<group>"; };
+		1319E8241B58DF1800B81C7D /* TLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				1319E7FD1B58DF0F00B81C7D /* AppDelegate.h */,
 				1319E7FE1B58DF0F00B81C7D /* AppDelegate.m */,
-				1319E8001B58DF0F00B81C7D /* ViewController.h */,
-				1319E8011B58DF0F00B81C7D /* ViewController.m */,
+				1319E81F1B58DF1800B81C7D /* TLCollectionViewController.h */,
+				1319E8201B58DF1800B81C7D /* TLCollectionViewController.m */,
+				1319E8211B58DF1800B81C7D /* TLCollectionViewDragLayout.h */,
+				1319E8221B58DF1800B81C7D /* TLCollectionViewDragLayout.m */,
+				1319E8231B58DF1800B81C7D /* TLCollectionViewCell.h */,
+				1319E8241B58DF1800B81C7D /* TLCollectionViewCell.m */,
 				1319E8031B58DF0F00B81C7D /* Main.storyboard */,
 				1319E8061B58DF0F00B81C7D /* Images.xcassets */,
 				1319E8081B58DF0F00B81C7D /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1319E8021B58DF0F00B81C7D /* ViewController.m in Sources */,
 				1319E7FF1B58DF0F00B81C7D /* AppDelegate.m in Sources */,
+				1319E8251B58DF1800B81C7D /* TLCollectionViewController.m in Sources */,
+				1319E8261B58DF1800B81C7D /* TLCollectionViewDragLayout.m in Sources */,
+				1319E8271B58DF1800B81C7D /* TLCollectionViewCell.m in Sources */,
 				1319E7FC1B58DF0F00B81C7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLCollectionViewDragLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLCollectionViewDragLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +430,7 @@
 				1319E81B1B58DF0F00B81C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1319E81C1B58DF0F00B81C7D /* Build configuration list for PBXNativeTarget "TLCollectionViewDragLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				1319E81E1B58DF0F00B81C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
